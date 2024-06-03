@@ -16,5 +16,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false // Mantineとの互換性を解消させるために必要
+  }
 };
 export default config;
